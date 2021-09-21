@@ -29,10 +29,10 @@ object Processor {
     finalDf.printSchema()
     //finalDf.show(false)
 
-    finalDf.write
+    finalDf.repartition(1).write
       .option("header", "true")
       .option("sep", ",")
-      .csv(s"output")
+      .csv("output")
 
   }
 
