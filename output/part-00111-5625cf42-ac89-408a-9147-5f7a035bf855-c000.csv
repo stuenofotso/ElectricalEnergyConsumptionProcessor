@@ -1,0 +1,2 @@
+meter,start_time,end_time,energy_consumption,mean_power,min_power,max_power,stddev_power,median_power
+B,2019-01-02T17:11:54.000Z,2019-01-02T17:44:54.000Z,6745844.0,1.1538691191997778E7,1234800.0,2.34468E7,3972186.9347515753,1.28016E7
